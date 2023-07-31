@@ -8,7 +8,7 @@ secret_key = 'secret key ID'
 s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
 
 # Rest of the code remains the same
-bucket_name = 'enter bucket name farhan'
+bucket_name = 'enter bucket name'
 object_key = 'audios/abc.wav'
 local_file_path = 'enter local path'
 
